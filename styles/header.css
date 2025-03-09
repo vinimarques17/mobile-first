@@ -1,0 +1,38 @@
+.header{
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+    & .header__position{
+        display: flex;
+        align-items: center;
+
+        & .header__img{
+            padding: 1em;
+        }
+
+        & .header__list-menu{
+            display: none;
+            position: absolute;
+            top: 100%;
+        }
+
+        & .header__position__button:checked ~ .header__list-menu{
+            display: block;
+        }
+    }
+
+    & .header__hamburguer-menu{
+        width: 24px;
+        height: 24px;
+        background-image: url(../img/Menu.svg);
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center;
+    } 
+}
+
+
+
