@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraBooks</title>
     <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./styles.css">
 </head>
 <header class="header">
@@ -45,6 +46,39 @@
         <p class="banner__text">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner__search" placeholder="Qual será sua próxima leitura?">
     </section>
+    <section class="carousel">
+        <h2 class="carousel__title">Novos lançamentos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="./img/Guia Front-end.svg" alt="Livro sobre Front-end"></div>
+            <div class="swiper-slide"><img src="./img/Javascript.svg" alt="Livro sobre Javascript"></div>
+            <div class="swiper-slide"><img src="./img/Portugol.svg" alt="Livro sobre Portugol"></div>
+            <div class="swiper-slide"><img src="./img/ApacheKafka.svg" alt="Livro sobre ApacheKafka"></div>
+            <div class="swiper-slide"><img src="./img/Liderança.svg" alt="Livro sobre Lideranca"></div>
+            ...
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+      </script>
 </body>
 <footer></footer>
 </html>
