@@ -8,7 +8,8 @@
     --color-white: #FFFFFF;
     --color-yellow: #EB9B00;
     --color-blue: linear-gradient(94.57deg, #002F52 35.49%, #326589 165.37%);
-    --font-type: "Poppins"
+    --font-type: "Poppins";
+    --color-high-blue: #002F52;
 }
 
 .layout{
