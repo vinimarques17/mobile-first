@@ -57,3 +57,49 @@
 .header__position__button{
     display: none;
 }
+
+.header__position__title{
+    display: none;
+}
+
+.options{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+    .header__position__title, .header__position__title-strong{
+        font-family: var(--second-font-type);
+        font-size: 30px;
+    }
+
+    .header__position__title{
+        font-weight: 400;
+        display: block;
+    }
+
+    .header__position__title-strong{
+        font-weight: 700;
+    }
+
+    .options{
+        display: flex;
+    }
+
+    .options__item{
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+
+    .options__item__link{
+        text-decoration: none;
+        color: var(--color-black);
+    }
+
+    .header-flee{
+        display: none;
+    }
+
+    .header__hamburguer-menu{
+        display: none;
+    }
+}
