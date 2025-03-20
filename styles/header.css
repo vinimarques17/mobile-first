@@ -102,4 +102,13 @@
     .header__hamburguer-menu{
         display: none;
     }
+
+    .options__button:checked ~ .header__list-menu{
+        display: block;
+        width: auto;
+    }
+
+    .options__button{
+        display: none;
+    }
 }
