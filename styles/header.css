@@ -72,9 +72,14 @@
         font-size: 30px;
     }
 
+    .header__position{
+        margin-left: 2em;
+    }
+
     .header__position__title{
         font-weight: 400;
         display: block;
+        margin-left: 0.5em;
     }
 
     .header__position__title-strong{
