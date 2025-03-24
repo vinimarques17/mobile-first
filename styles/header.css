@@ -66,6 +66,10 @@
     display: none;
 }
 
+.header__position__text{
+    display: none;
+}
+
 @media screen and (min-width: 1024px){
     .header__position__title, .header__position__title-strong{
         font-family: var(--second-font-type);
@@ -118,4 +122,22 @@
     }
 
     
+}
+
+@media screen and (min-width: 1078px){
+    .header__position__link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: 20px;
+        margin-right: 2em;
+        color: var(--color-black);
+    }
+
+    .header__position__text{
+        display: block;
+    }
+     .header-flee{
+        display: none;
+    }
 }
