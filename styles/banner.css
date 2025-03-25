@@ -48,3 +48,17 @@
     }
 
 }
+
+@media screen and (min-width: 1728px){
+    .banner__search{
+        width: 35%;
+    }
+
+    .banner__search::placeholder{
+        background-position: 11em;
+    }
+
+    .banner{
+        padding: 5em 0;
+    }
+}
