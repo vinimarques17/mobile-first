@@ -70,6 +70,14 @@
     display: none;
 }
 
+.header__position__button:checked ~ .label > .header__hamburguer-menu{
+    background-image: url(../img/Menu\ Aberto.svg);
+}
+
+.header__position__button:checked ~ .label {
+    background: var(--color-blue);
+}
+
 @media screen and (min-width: 1024px){
     .header__position__title, .header__position__title-strong{
         font-family: var(--second-font-type);
@@ -121,7 +129,24 @@
         display: none;
     }
 
+    .options__button:checked ~.options__label> .options__item{
+        background: var(--color-blue);
+        color: var(--color-white);
+    }
+
+    .options__item{
+        padding: 2em 1em;
+    }
     
+    .header__list-menu__item:hover{
+        background: var(--color-blue);
+    }
+
+    .header__list-menu__item:hover > .list-menu__link{
+        -webkit-text-fill-color: var(--color-white);
+        text-decoration: none;
+    }
+
 }
 
 @media screen and (min-width: 1728px){
