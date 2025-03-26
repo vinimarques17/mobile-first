@@ -147,6 +147,10 @@
         text-decoration: none;
     }
 
+    .options__label{
+        cursor: pointer;
+    }
+
 }
 
 @media screen and (min-width: 1728px){
