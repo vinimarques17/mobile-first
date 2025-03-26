@@ -11,11 +11,15 @@
   </p>
 
 <h2>
-  🛠️ Construído com
+  🛠️ Tecnologias Usadas
 </h2>
   <ul>
     <li>CSS</li>
     <li>HTML</li>
   </ul>
+
+  <h2>
+    &#U+1F6A7 Setup
+  </h2>
 
   <p>⌨️ Desenvolvido por Vinicius Mantovani Marques</p>
