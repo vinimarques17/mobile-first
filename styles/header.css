@@ -142,7 +142,7 @@
         background: var(--color-blue);
     }
 
-    .header__list-menu__item:hover > .list-menu__link{
+    .header__list-menu__item:hover{
         -webkit-text-fill-color: var(--color-white);
         text-decoration: none;
     }
