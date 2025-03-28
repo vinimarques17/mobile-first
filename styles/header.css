@@ -165,8 +165,10 @@
 
     .header__position__text{
         display: block;
+        color: var(--color-white);
     }
      .header-flee{
         display: none;
     }
+    
 }
